@@ -12,6 +12,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+//        DataManager.sharedInstance().factsAPI()
+        
+        DataManager.sharedInstance().readLocalJson()
+        
+        
+        
+        
         // Do any additional setup after loading the view.
     }
 
